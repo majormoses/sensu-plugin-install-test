@@ -32,4 +32,4 @@ docker run -it -e PACKAGES='build-essential,libexpat1-dev' d03f294ac7b9 /bin/bas
 ```
 
 ## Ruby-slim packages
-It does include some packages that are installed by default. If you are having issues locally but not in this image you can always try installing them one by one. These change regularly so please always refer to the master branch: https://github.com/docker-library/ruby/blob/master/2.3/slim/Dockerfile
+It does include some packages that are installed by default. If you are having issues locally but not in this image you can always try installing them one by one. These change regularly so please always refer to the master branch: https://github.com/docker-library/ruby/blob/master/2.3/slim/Dockerfile There is indeed a c compiler installed but later removed so it might be hard to validate the need for a c complier: https://github.com/docker-library/ruby/blob/09c6a1602c111cf0cc83bf1df3186a85314ce398/2.3/slim/Dockerfile#L35.
