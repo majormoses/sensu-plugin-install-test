@@ -1,0 +1,19 @@
+# stupid OSX files
+.DS_Store
+
+# gem files
+.rake_test_cache
+vendor/*
+.bundle/*
+
+# emacs
+*~
+
+# vim
+*.sw[a-z]
+
+# subversion
+*/.svn/*
+
+# we should always customize the Gemfile
+Gemfile
