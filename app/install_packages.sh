@@ -13,4 +13,6 @@ else
   done
   echo 'installing Gems'
   bundle install
+  echo 'listing installed packages:'
+  dpkg --get-selections
 fi
