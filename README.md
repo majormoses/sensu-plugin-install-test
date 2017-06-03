@@ -30,3 +30,6 @@ Example:
 ```
 docker run -it -e PACKAGES='build-essential,libexpat1-dev' d03f294ac7b9 /bin/bash
 ```
+
+## Ruby-slim packages
+It does include some packages that are installed by default. If you are having issues locally but not in this image you can always try installing them one by one. These change regularly so please always refer to the master branch: https://github.com/docker-library/ruby/blob/master/2.3/slim/Dockerfile
