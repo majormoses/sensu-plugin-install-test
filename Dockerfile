@@ -1,4 +1,4 @@
-FROM ruby:2.3-slim
+FROM ubuntu:16.04
 
 # some basic stuff
 RUN mkdir /usr/src/app
