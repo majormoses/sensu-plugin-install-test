@@ -23,7 +23,7 @@ Here is where you can affect runtime, we use a simple ENV var of PACKAGES which 
 
 You now have everything you need to know to run this. An example might look like this: `docker run -e PACKAGES='build-essential,libexpat1-dev' d03f294ac7b9 ./install_packages.sh`.
 
-### Play with Me
+### Ad-hoc Me
 You can use the `-it` docker options and specify a shell so you can mess with anything you want to your hearts content.
 
 Example:
