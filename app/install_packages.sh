@@ -12,7 +12,7 @@ else
     apt-get install -y $i
   done
   echo 'installing Gems'
-  bundle install
+  time bundle install
   echo 'listing installed packages:'
   dpkg --get-selections
 fi
